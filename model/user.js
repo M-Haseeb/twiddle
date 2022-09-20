@@ -21,10 +21,16 @@ const user_schema=mongoose.Schema({
       type:String,
       required:true
     },
-
+    wallet:{
+        type:Number,
+        default:0
+    },
     phone:{
         type:String,
         required:true
+    },
+    img:{
+      type:String,
     },
     email:{
         type:String,
